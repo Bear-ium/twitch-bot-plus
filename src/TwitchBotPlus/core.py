@@ -24,7 +24,7 @@ class Bot:
         self.token = cast(str, auth.get_oauth_token())
         self.channel = cast(str, os.getenv("CHANNEL"))
         
-        self.handle = ""
+        self.handle = HANDLE
         self.commands = COMMANDS
         
         self.shutdown_requested = threading.Event()
