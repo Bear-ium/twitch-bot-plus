@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OAuth Token Received</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h2>OAuth Token Received</h2>
+    <p><b>Access Token:</b> {{ access_token }}</p>
+    <p><b>Refresh Token:</b> {{ refresh_token }}</p>
+    <p>These have been saved to your <code>.env</code> one folder up.</p>
+</body>
+
+</html>
