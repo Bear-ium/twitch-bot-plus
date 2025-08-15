@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "twitch-bot-plus"
-version = "1.0.1"
+version = "1.1.0"
 description = "A modular Twitch chat bot framework."
 readme = "README.md"
 requires-python = ">=3.10"
